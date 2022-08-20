@@ -18,7 +18,7 @@
 Before installing the `DNOTS` package, users should have installed `R` with version 3.5.0 or higher.
 
 
-#### Package dependencies
+### Package dependencies
 
 Users should install the following packages prior to installing `DNOTS`, from an `R` session:
 
