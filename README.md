@@ -44,6 +44,8 @@ install_github("becky-wingyan-yuen/DNOTS-Rpackage")
 Please check the user's guide for the detailed instructions on how to use the functions in the package. You may also run the following code in the `R` session:
 
 ```
+library(DNOTS)
+
 data("example_data", package = "DNOTS")
 
 uni_true_cluster = rep(NA,dim(example_data)[2])
