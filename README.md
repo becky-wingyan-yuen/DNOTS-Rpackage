@@ -36,7 +36,7 @@ From an `R` session, type:
 
 ```
 require(devtools)
-install_github("becky-wing-yan-yuen/DNOTS-Rpackage") 
+install_github("becky-wingyan-yuen/DNOTS-Rpackage") 
 ```
 
 
