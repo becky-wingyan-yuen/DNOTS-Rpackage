@@ -1,0 +1,16 @@
+Package: DNOTS
+Type: Package
+Title: On Data Normalization for Tumor Subtyping with microRNA data
+Version: 0.99.00
+Date: 2020-08-18
+Author: Becky Wing-Yan Yuen 
+Maintainer: Becky Wing-Yan Yuen <wyyuen@terpmail.umd.edu>
+Description: DNOTS provides the function for normalization, batch effect correction, and clustering workflow on microRNA data that we implemented in our manuscript. 
+Depends: R (>= 3.5.0)
+License: GPL (>= 2)
+Imports: sva, cluster, fpc, sparcl, som, mclust
+Suggests: limma, preprocessCore, vsn, ruv
+Keywords: MicroRNA experiments; Batch effects; Normalization;
+        Clustering; Integrative analysis
+NeedsCompilation: no
+Packaged: 2022-08-20 20:37:25 UTC; Yuen Wing Yan
