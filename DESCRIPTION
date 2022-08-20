@@ -9,7 +9,6 @@ Description: DNOTS provides the function for normalization, batch effect correct
 Depends: R (>= 3.5.0)
 License: GPL (>= 2)
 Imports: sva, vsn, cluster, fpc, sparcl, som, mclust
-Suggests: limma, preprocessCore
 Keywords: MicroRNA experiments; Batch effects; Normalization;
         Clustering; Integrative analysis
 NeedsCompilation: no
