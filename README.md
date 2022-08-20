@@ -6,7 +6,6 @@
 - [System Requirements](#system-requirements)
 - [Installation Guide](#installation-guide)
 - [Demo](#demo)
-- [Instructions for use](#instructions-for-use)
 
 # Repo Contents
 
