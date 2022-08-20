@@ -3,7 +3,7 @@
 ## Contents
 
 - [Repo Contents](#repo-contents)
-- [System Requirements](#system-requirements)
+- [Software dependencies](#software-dependencies)
 - [Installation Guide](#installation-guide)
 - [Demo](#demo)
 
@@ -13,7 +13,7 @@
 - [data](./data): the example data for the demo.
 - [man](./man): help manual.
 
-### Software dependencies
+# Software dependencies
 
 Before installing the `DNOTS` package, users should have installed `R` with version 3.5.0 or higher.
 
