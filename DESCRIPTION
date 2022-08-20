@@ -8,8 +8,8 @@ Maintainer: Becky Wing-Yan Yuen <wyyuen@terpmail.umd.edu>
 Description: DNOTS provides the function for normalization, batch effect correction, and clustering workflow on microRNA data that we implemented in our manuscript. 
 Depends: R (>= 3.5.0)
 License: GPL (>= 2)
-Imports: sva, cluster, fpc, sparcl, som, mclust
-Suggests: limma, preprocessCore, vsn, ruv
+Imports: sva, vsn, cluster, fpc, sparcl, som, mclust
+Suggests: limma, preprocessCore
 Keywords: MicroRNA experiments; Batch effects; Normalization;
         Clustering; Integrative analysis
 NeedsCompilation: no
