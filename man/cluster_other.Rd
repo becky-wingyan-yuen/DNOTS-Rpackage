@@ -57,7 +57,7 @@ List with the following elements:
 	Becky Wing-Yan Yuen
 }
 \examples{
-data("example_data", package = "DNOTS")
+data("example_data", package = "precision.subtype")
 
 uni_true_cluster = rep(NA,dim(example_data)[2])
 uni_true_cluster[which(substr(colnames(example_data),7,7)=="E")] = 1
