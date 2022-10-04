@@ -1,4 +1,4 @@
-# On Data Normalization for Tumor Subtyping with microRNA data (DNOTS)
+# On Data Normalization for Tumor Subtyping with microRNA data
 
 ## Contents
 
@@ -15,12 +15,12 @@
 
 # Software dependencies
 
-Before installing the `DNOTS` package, users should have installed `R` with version 3.5.0 or higher.
+Before installing the `precision.subtype` package, users should have installed `R` with version 3.5.0 or higher.
 
 
 ### Package dependencies
 
-Users should install the following packages prior to installing `DNOTS`, from an `R` session:
+Users should install the following packages prior to installing `precision.subtype`, from an `R` session:
 
 ```
 if (!require("BiocManager", quietly = TRUE))
@@ -35,7 +35,7 @@ From an `R` session, type:
 
 ```
 require(devtools)
-install_github("becky-wingyan-yuen/DNOTS-Rpackage") 
+install_github("becky-wingyan-yuen/precision.subtype-Rpackage") 
 ```
 
 
@@ -44,9 +44,9 @@ install_github("becky-wingyan-yuen/DNOTS-Rpackage")
 Please check the user's guide for the detailed instructions on how to use the functions in the package. You may also run the following code in the `R` session:
 
 ```
-library(DNOTS)
+library(precision.subtype)
 
-data("example_data", package = "DNOTS")
+data("example_data", package = "precision.subtype")
 
 uni_true_cluster = rep(NA,dim(example_data)[2])
 uni_true_cluster[which(substr(colnames(example_data),7,7)=="E")] = 1
